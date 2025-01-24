@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:15.10
+    environment:
+      POSTGRES_DB: picoles
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin 
+    ports:
+      - 5432:5432
+  adminer:
+    image: adminer
+    ports: 
+      - 8080:8080
+    
