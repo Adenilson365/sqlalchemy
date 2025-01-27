@@ -44,7 +44,7 @@ def create_ssession() -> Session:
     if not __engine:
         create_engine() # para usar sqlite  -> create_engine(sqlite=True)
     
-    __session = sessionmaker(__engine, xpire_on_commit=False, class_=Session)
+    __session = sessionmaker(__engine, expire_on_commit=False, class_=Session)
 
     session: Session = __session()
 
