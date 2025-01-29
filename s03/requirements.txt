@@ -1,0 +1,14 @@
+#Sincrona
+# greenlet==3.1.1
+# psycopg2-binary==2.9.10
+# SQLAlchemy==2.0.37
+# tqdm==4.67.1
+# typing_extensions==4.12.2
+
+#Assincrona
+async-timeout==5.0.1
+asyncpg==0.30.0
+greenlet==3.1.1
+SQLAlchemy==2.0.37
+tqdm==4.67.1
+typing_extensions==4.12.2
